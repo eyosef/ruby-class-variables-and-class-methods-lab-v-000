@@ -38,6 +38,7 @@ class Song
     artist_counter = Hash.new(0)
     @@artists.each { |artist| artist_counter[artist]+= 1}
     artist_counter
+    binding.pry
   end
 
   def new(name, artist, genre)
