@@ -34,7 +34,7 @@ class Song
     counter
   end
 
-  def self.artists_count #work on
+  def self.artists_count
   end
 
   def new(name, artist, genre)
