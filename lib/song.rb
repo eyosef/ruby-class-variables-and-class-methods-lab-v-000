@@ -35,7 +35,7 @@ class Song
   end
 
   def self.artists_count
-    
+
   end
 
   def new(name, artist, genre)
