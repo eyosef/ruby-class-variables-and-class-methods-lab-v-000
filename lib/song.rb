@@ -30,6 +30,7 @@ class Song
 
   def self.genre_count #work on
     @@genres.map{ |genre, freq| freq[genre]+=1; [genre, freq] }.to_h
+    binding.pry
     #note TO SELF, figure out how to use 'freq' to count number of genres
 
     #@@genres.each do |genre|
