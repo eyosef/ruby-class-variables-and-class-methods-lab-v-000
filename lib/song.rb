@@ -29,7 +29,7 @@ class Song
   end
 
   def self.genre_count #work on
-    counter = 0
+    counter = Hash.new(0)
     @@genres.each { |genre| counter[genre]+= 1}
     #@@genres.map{ |genre, freq| freq[genre]+=1; [genre, freq] }.to_h
 
