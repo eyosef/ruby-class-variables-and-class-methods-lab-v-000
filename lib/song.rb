@@ -29,8 +29,8 @@ class Song
   end
 
   def self.genre_count #work on
-    binding.pry
-    @@genres.map{ |genre, freq| freq[genre]+=1; [genre, freq] }.to_h
+    
+    #@@genres.map{ |genre, freq| freq[genre]+=1; [genre, freq] }.to_h
     
     #note TO SELF, figure out how to use 'freq' to count number of genres
 
