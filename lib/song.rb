@@ -32,17 +32,6 @@ class Song
     counter = Hash.new(0)
     @@genres.each { |genre| counter[genre]+= 1}
     counter
-    #@@genres.map{ |genre, freq| freq[genre]+=1; [genre, freq] }.to_h
-
-    #note TO SELF, figure out how to use 'freq' to count number of genres
-
-    #@@genres.each do |genre|
-      # @@genres = {genre => freq}
-
-      #new_hash[:"#{genre}"] = nil
-    #end #each iteration
-
-    # @@genres = ["rap", "rap", "pop"]
   end
 
   def self.artists_count #work on
